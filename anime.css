@@ -1,0 +1,352 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap') repeat  ;
+
+a.linkAbove{
+  text-decoration: none;
+  color: black;
+  position: relative;
+
+}
+
+a::before{
+ 
+  width: 100%;
+  height: 4px;
+  background-color: blue;
+  
+
+
+}
+
+
+div.blocks{
+
+border-width: 48px;
+border-radius: 49px;
+border-color: beige;
+border-style: solid;
+
+}
+
+div.heaDR{
+flex-basis: 100%;
+flex-grow: 1;
+flex-shrink: 0;
+
+
+}
+
+h1.header {
+	width: 100%;
+	height: 4%;
+	background-color: rgba(245, 245, 245, 0.315);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.103);
+}
+
+section.column {
+	width: 50%;
+	text-align: center;
+	padding-top: 30px;
+	float: left;
+}
+.intro .column p {
+	width: 80%;
+}
+
+body.Display2ndPage{
+
+
+  background: url(image/ANIME); 
+  animation: scroll 70s linear infinite;
+  color: #eee;
+  height: 100vh;
+  min-width: 360px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+  
+}
+
+#box{
+
+background-image: url(image/TRAP.jpg);
+width: 200px;
+height: 200px;
+border: 2px solid   white;
+background-position: center center;
+background-size: cover;
+border-radius: 15% 50% 15% 50%;
+box-shadow: 2px 2px  20px pink;
+
+}
+
+div.trapPosition{
+
+align-content: center;
+
+}
+
+div.FixedHEADER{
+
+  background-color: ghostwhite;
+  border: 3px solid whitesmoke ;
+padding: 15px; 
+position: fixed; 
+top: 0;
+bottom: 0;
+width: 100% ;
+
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+
+p.gradientpoint {
+
+background-image:  linear-gradient(98deg, rgba(29,36,0,1) 14%, rgba(9,9,121,1) 80%, rgba(0,212,255,1) 100%);
+ 
+ background-color: rgb(29,36,0);
+
+ font-family: 'Original Surfer', cursive;
+
+}
+
+.aBox{
+
+width: 200px;
+height: 200px;
+position: absolute;
+border: 5px solid white;
+background-color: cornsilk;
+border-radius:50%;
+ animation-name: MovinG;
+ animation-duration:5s;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;
+
+}
+  
+@keyframes MovinG {
+
+  0%{
+    left: 0;
+     
+  }
+
+  20%{
+
+background-color: indigo;
+
+
+}
+
+
+40%{
+
+background-color: darkolivegreen;
+
+}
+
+60%{
+
+  background-color: darkslateblue;
+}
+
+80%{
+
+  background-color: fuchsia;
+}
+
+100%{
+
+left: 82%;
+background-color: brown;
+}
+
+}
+
+
+h1.lhsBAR{
+
+background-color:black;
+
+}
+
+
+
+
+
+
+
+
+.gallery .thumbnail .tag {
+	color: #5D5E5D;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+html.Appearance{
+margin-top: 1000px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.list-of-items{
+
+  display:inline-block;
+  border: #eee 2px solid;
+  height: 300px;
+  width: 200px;
+}
+
+h1.in-a-border{
+    text-decoration:black;
+    text-size-adjust: 4px;
+    text-align: center;
+}
+
+
+
+h1{
+
+text-align: center;
+
+}
+
+div.border{
+border-radius: 30px;
+border: pink;
+border-style: solid;
+height: 300px;
+width: 200px;
+align-items: flex-start;
+
+}
+
+div.thumbnail {
+	width: 48%;
+}
+
+div.gallery .thumbnail .tag {
+	color: #5D5E5D;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+img.cards {
+	width: 100%;
+	height: auto;
+	max-width: 400px;
+	max-height: 200px;
+	opacity: 0.8;
+}
+
+div.page-layout {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.paGeLHS{
+
+  flex-basis: 25%;
+  flex-grow: 0;
+  flex-shrink: 1;
+
+}
+
+div.pageContent{
+
+  flex-basis: 75%;
+  flex-grow: 1;
+  flex-shrink: 0;
+
+}
+
+
+
+
+
+    body {
+
+  animation: scroll 70s linear infinite;
+ /* background: url("https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80"), #111111; */
+ /* background: url(image/ANIME);  */
+
+ background-image:url(image/download.png);
+  color: #eee;
+  height: 100vh;
+  min-width: 360px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+  
+}
+
+
+h1.header2ndPage{
+
+text-align:top;
+
+}
+
+header.StickyHeader{
+
+  position: sticky;
+  background-color: #85726E;
+  border-bottom: 3px solid #85726E;
+  padding: 15px;
+  top: 0ch;
+  bottom: 500px;
+
+
+}
+
+div.SecretBox{
+
+
+height: 500px;
+width: 290px;
+border: 2px solid white;
+overflow:auto;
+
+}
+
+
+@keyframes scroll {
+   100%{
+    background-position:0px -3000px;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .wrapper {
+    animation: scroll 200s linear infinite;
+  }
+}
+
+@media (min-width: 670px) {
+  .title {
+    font-size: 5rem;
+  }
+}
